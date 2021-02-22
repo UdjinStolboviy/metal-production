@@ -1,0 +1,140 @@
+.our-top {
+  margin-top: -700px;
+  margin-left: -70px;
+  font-weight: 600;
+  white-space: nowrap;
+  .our-top-hr {
+    margin-left: 110px;
+  }
+}
+
+.img-our {
+  position: absolute;
+  z-index: 3;
+  margin-top: 30px;
+}
+
+.wrap-text {
+  position: absolute;
+  width: 750px;
+  height: 260px;
+
+  margin-top: 90px;
+  z-index: 6;
+
+  background: rgba(62, 62, 62, 0.9);
+  h2 {
+    margin-left: 88px;
+    margin-top: 20px;
+    width: 228px;
+    height: 60px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+  p {
+    margin-left: 90px;
+    margin-top: 25px;
+    width: 545px;
+    height: 115px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    /* or 128% */
+
+    color: #ffffff;
+  }
+  .text-hr-our {
+    margin-top: -130px;
+    margin-left: 600px;
+    position: absolute;
+    width: 212px;
+    height: 2px;
+    z-index: 8;
+
+    background: #e4b56b;
+    transform: rotate(-90deg);
+  }
+}
+.img-our-2 {
+  position: absolute;
+  z-index: 3;
+  margin-top: 450px;
+}
+
+.wrap-tex-2 {
+  position: absolute;
+  width: 750px;
+  height: 260px;
+  margin-left: 630px;
+
+  margin-top: 500px;
+  z-index: 6;
+
+  background: rgba(62, 62, 62, 0.9);
+  h2 {
+    margin-left: 88px;
+    margin-top: 20px;
+    white-space: nowrap;
+    width: 228px;
+    height: 60px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+  p {
+    margin-left: 90px;
+    margin-top: 25px;
+    width: 545px;
+    height: 115px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #ffffff;
+  }
+  .text-hr-our {
+    margin-top: -130px;
+    margin-left: -40px;
+    position: absolute;
+    width: 212px;
+    height: 2px;
+    z-index: 8;
+
+    background: #e4b56b;
+    transform: rotate(-90deg);
+  }
+}
+@media (max-width: 360px) {
+  .our-top {
+    display: none;
+  }
+  .img-our-2 {
+    display: none;
+  }
+  .img-our-2 {
+    display: none;
+  }
+  .wrap-text {
+    display: none;
+  }
+  .wrap-tex-2 {
+    display: none;
+  }
+}

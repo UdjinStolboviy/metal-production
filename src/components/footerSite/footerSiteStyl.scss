@@ -1,0 +1,98 @@
+.main-footer {
+  display: flex;
+  margin-top: 900px;
+  .about-company {
+    margin-left: 90px;
+    margin-right: 200px;
+  }
+  .services-footer {
+    margin-left: 20px;
+  }
+  .services-add {
+    margin-left: 25px;
+    margin-top: 22px;
+  }
+  .footer-hr {
+    width: 1px;
+    height: 55px;
+    margin-top: -30px;
+
+    background: #e4b56b;
+  }
+  .social-info {
+    margin-left: 145px;
+
+    h2 {
+      width: 214px;
+      height: 21px;
+      margin-bottom: 9px;
+
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 21px;
+
+      color: #3e3e3e;
+    }
+    p {
+      width: 270px;
+      height: 42px;
+      margin-bottom: 15px;
+
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 21px;
+
+      color: #3e3e3e;
+    }
+    h3 {
+      margin-bottom: 15px;
+      width: 62px;
+      height: 21px;
+      white-space: nowrap;
+
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 21px;
+
+      color: #3e3e3e;
+    }
+    img {
+      margin-left: 10px;
+    }
+  }
+}
+.dev {
+  margin-left: 635px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+  width: 91px;
+  height: 30px;
+
+  font-family: Raleway;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  text-align: center;
+
+  color: #3e3e3e;
+}
+
+@media (max-width: 360px) {
+  .menu-footer {
+    display: none;
+  }
+  .main-footer {
+    display: none;
+  }
+
+  .dev {
+    display: none;
+  }
+}
